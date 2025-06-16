@@ -5,11 +5,6 @@ const Hero = () => {
         <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
             <div className="absolute inset-0 bg-gradient-to-b from-dark via-secondary to-dark opacity-80"></div>
             <div className="absolute inset-0 bg-hero-pattern opacity-10"></div>
-            <img
-                src="/images/wednesday-hero.jpg"
-                alt="Wednesday Addams"
-                className="absolute inset-0 w-full h-full object-cover"
-            />
 
             <div className="container mx-auto px-6 relative z-10 text-center" data-aos="fade-down">
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 font-orbitron">
